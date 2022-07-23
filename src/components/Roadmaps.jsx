@@ -5,9 +5,9 @@ import imag2 from "../images/roadmap2.png";
 import imag3 from "../images/roadmap3.png";
 import { useActiveMenu } from "react-active-menu";
 import classNames from "classnames";
-import "../Assets/Css/Test.css";
+import "../Assets/Css/roadmap.css";
 
-const Test = () => {
+const Roadmaps = () => {
   useEffect(() => {
     const scrollingDiv = document.getElementById("scrollContainer");
     const img1 = document.getElementById("img1");
@@ -96,11 +96,11 @@ const Test = () => {
                       id="1"
                       ref={registerSectionRef("section-1")}
                     >
-                        <div className="rightsec-road mx-4">
+                        <div className="rightsec-road mx-3">
                           <h3>ROADMAP</h3>
                         </div>
                         <div className="road-heads mx-md-3">
-                          <h1 className="outline-txt mx-4">LAUNCH</h1>
+                          <h1 className="outline-txt mx-3">LAUNCH</h1>
                         </div>
                         <div className=" anim-list">
                           <ul>
@@ -155,10 +155,10 @@ const Test = () => {
                       ref={registerSectionRef("section-2")}
                     >
                       <div className="row">
-                        <div className="rightsec-road mx-4">
+                        <div className="rightsec-road mx-3">
                           <h3 className="white-txt">ROADMAP</h3>
                         </div>
-                        <div className="road-heads mx-4">
+                        <div className="road-heads mx-3">
                           <div className="head-one">
                             <h2 className="white-txt">SHORTLY </h2>
                             <h2 className="white-txt aft-head">AFTER</h2>
@@ -232,10 +232,10 @@ const Test = () => {
                       ref={registerSectionRef("section-3")}
                     >
                       <div className="row">
-                        <div className="rightsec-road mx-4">
+                        <div className="rightsec-road mx-3">
                           <h3 className="white-txt">ROADMAP</h3>
                         </div>
-                        <div className="road-heads mx-4">
+                        <div className="road-heads mx-3">
                           <div className="head-one">
                             <h2 className="white-txt">A BIT </h2>
                             <h2 className="white-txt"> DOWN</h2>
@@ -279,4 +279,4 @@ const Test = () => {
   );
 };
 
-export default Test;
+export default Roadmaps;

@@ -3,11 +3,11 @@ import Tokens from "../../Assets/image/Tokens.png";
 import NFT from "../../Assets/image/NFT.png";
 import AboutUs from "../landingPages/AboutUs";
 import Arrow from "../../Assets/image/arrow.png";
-import Roadmap from "../landingPages/Roadmap";
+// import Roadmap from "../landingPages/Roadmap";
 import Team from "../landingPages/Team";
 import FAQS from "../landingPages/FAQS";
 import { Link } from "react-router-dom";
-import Test from "../Test";
+import Roadmaps from "../Roadmaps";
 
 const Home = () => {
   const [value, setValue] = useState("first-text");
@@ -114,7 +114,7 @@ const Home = () => {
       </div>
       <div id="roadmap" className="scroll-top">
       <div className="container-wrap">
-        <Test />
+        <Roadmaps />
    
         </div>
       </div>
