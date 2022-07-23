@@ -1,0 +1,200 @@
+  
+  .sections > div {
+    vertical-align: top;
+    height: 750px;
+    padding-left: 10px;
+  }
+  .left,
+  .middle {
+    display: table-cell;
+    height: 80vh;
+    box-sizing: border-box;
+  }
+  .left {
+    width: 40%;
+    background: transparent;
+  }
+  
+  .middle {
+    overflow: auto;
+    position: relative;
+  }
+  
+  .in-middle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    position: absolute;
+    left: 0;
+  }
+  .in-in-middle {
+    height: 760px;
+  }
+  
+  
+  .left img {
+    transition: all 0.5s;
+    margin-top: 134px
+    
+  }
+
+  .middle::-webkit-scrollbar {
+    display: none;
+  }
+  
+.rightsec-road h3{
+    color: #fff;
+    padding-top: 40px;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.road-heads h1{
+    color: #fff;
+}
+
+
+
+@media(min-width:981px){
+.anim-list ul{
+    width: 650px;
+}
+
+}
+.rgt-sec{
+    flex: 0 0 auto;
+    width: 3.333333% !important;
+}
+@media screen and (max-width: 767px){
+  .in-in-middle{
+    height: 850px;
+  }
+  .in-in-middle.three{
+    height: 1024px !important;
+
+  }
+  .container, .container-sm{
+    max-width: 1024px !important;
+    max-width: auto;
+}
+  .rightsec-road h3{
+    font-size: 17px;
+  }
+  .anim-list ul {
+    padding-left: 11px !important;
+}
+  .road-heads h1 {
+    font-size: 2.5rem;
+}
+.road-heads{
+  display: block !important;
+}
+.left{
+  padding-left: 0px !important;
+}
+.Typewriter__wrapper{
+  letter-spacing: 0px;
+}
+.left img{
+  height: 25%;
+}
+#right-flex{
+  justify-content: center;
+}
+.react-multi-carousel-list{
+  height: 488px;
+}
+.react-multi-carousel-track{
+  height: 480px;
+}
+.aft-head{
+  letter-spacing: 8px;
+}
+.twoh-div{
+  padding: 3px 2px 10px;
+}
+.roadmap-sections{
+  padding: 15px 0px;
+}
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+  
+.container, .container-sm{
+    max-width: 1024px !important;
+    max-width: auto;
+}
+.in-in-middle{
+  height: auto;
+}
+.road-heads h1 {
+  font-size: 40px;
+}
+.rightsec-road h3{
+  font-size: 25px;
+}
+.road-heads{
+  display: block !important;
+}
+.left{
+  padding-left: 0px !important;
+}
+.react-multi-carousel-list{
+  height: 460px;
+}
+.react-multi-carousel-track{
+  height: 410px;
+}
+.spi-verti img{
+  max-width: 115px;
+
+}
+
+
+
+}
+
+@media screen and (max-width: 766px) and (min-width: 300px){
+  .in-in-middle{
+    height: auto !important;
+    margin-left: 5px;
+  }
+  .left{
+    padding-left: 0px !important;
+  }
+  .Typewriter__wrapper{
+    letter-spacing: 0px;
+  }
+  .info-para{
+    line-height: 21px;
+  }
+  .anim-list ul li{
+    font-size: 12px;
+  }
+  .anim-div{
+    border: 4px solid #fff;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 900px){
+  .abt-left{
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .carouselItem{
+    padding: 0px 25px !important;
+  }
+  #right-flex{
+    justify-content: center;
+  }
+  .left-img{
+    justify-content: center;
+    margin-left: -116px;
+  }
+}
+
+
+
+/* Test CSS */
