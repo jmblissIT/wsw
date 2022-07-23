@@ -23,7 +23,7 @@ const Roadmaps = () => {
         img1.src = imag1;
       }
 
-      if (scrollingDiv.scrollTop > 800) {
+      if (scrollingDiv.scrollTop > 500) {
         img1.src = imag2;
       }
       if (scrollingDiv.scrollTop > 1000) {
