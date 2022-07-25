@@ -58,7 +58,7 @@ const Team = () => {
           </div>
 
           <div className="team-slide px-md-5 pt-3 pb-5">
-            <Carousel responsive={responsive}  infinite={true} autoPlay={true}  autoPlaySpeed={2000} itemClass='carouselItem'>
+            <Carousel responsive={responsive}  infinite={true}   autoPlaySpeed={2000} itemClass='carouselItem'>
               <div className="card-div">
                 <img width="100%" src={imgone} alt="Brett" />
                 <div className="wrap-card-content">
@@ -104,26 +104,7 @@ const Team = () => {
                 </div>
               </div>
               <div className="card-div">
-                <img width="100%" src={imgthree} alt="Brett" />
-                <div className="wrap-card-content">
-                  <div className="twoh-div">
-                    <h6 className="red-txt mb-0"> SHRED</h6>
-                    <p>CLUB WOLF</p>
-                    <div className="card-info">
-                      <i className="fa-brands fa-instagram"></i>
-                      <a href="#" rel="noopener noreferrer" target="_blank">
-                        TBD
-                      </a>
-                      <p className="info-para mb-0">
-                        From stocks to NFTs. Full time degen. Once said, no risk
-                        no rari.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="card-div">
-                <img width="100%" src={imgfour} alt="Brett" />
+                <img width="100%" src={imgthree} alt="Gandalf" />
                 <div className="wrap-card-content">
                   <div className="twoh-div">
                     <h6 className="red-txt mb-0">GANDALF</h6>
@@ -134,8 +115,28 @@ const Team = () => {
                         TBD
                       </a>
                       <p className="info-para mb-0">
-                        Did you really expect another title? Arrives precisely
+                      Did you really expect another title? Arrives precisely
                         when needed. Project Lead.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="card-div">
+                <img width="100%" src={imgfour} alt="Shred" />
+                <div className="wrap-card-content">
+                  <div className="twoh-div">
+                    <h6 className="red-txt mb-0"> SHRED</h6>
+                    <p>   CLUB WOLF</p>
+                    <div className="card-info">
+                      <i className="fa-brands fa-instagram"></i>
+                      <a href="#" rel="noopener noreferrer" target="_blank">
+                        TBD
+                      </a>
+                      <p className="info-para mb-0">
+                        
+                        From stocks to NFTs. Full time degen. Once said, no risk
+                        no rari.
                       </p>
                     </div>
                   </div>

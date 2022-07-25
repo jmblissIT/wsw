@@ -543,14 +543,14 @@ div#about-us:before {
 div#team {
   position: relative;
 }
-.accordion-button::after {
+/* .accordion-button::after {
   content: "\f067";
   background-image: unset !important;
   font-family: "FontAwesome";
   font-size: 25px;
   width: unset;
   height: unset;
-}
+} */
 .twoh-div p {
   margin-bottom: 0px !important;
 }
@@ -663,9 +663,15 @@ button.accordion-button.collapsed {
   color: #fff;
 }
 .accordion-button.collapsed::after {
-  transform: rotate(0) !important;
+  background-image: url("../image/show.png") !important;
+  width: 20px ;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  
 }
-.accordion-button::after {
+/* .accordion-button::after {
   content: "\f067";
   background-image: unset !important;
   font-family: "FontAwesome";
@@ -674,7 +680,17 @@ button.accordion-button.collapsed {
   width: unset;
   height: unset;
   transform: rotate(45deg) !important;
+} */
+.accordion-button::after {
+  background-image: url("../image/hide.png") !important;
+  width: 20px ;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+
 }
+
 .accordion-body p {
   letter-spacing: 2px;
   line-height: 25px;
