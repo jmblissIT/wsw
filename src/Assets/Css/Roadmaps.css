@@ -117,7 +117,9 @@
 .roadmap-sections{
   padding: 15px 0px;
 }
-
+.head-one h2{
+  font-size: 17px !important;
+}
 }
 
 
