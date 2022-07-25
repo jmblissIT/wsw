@@ -516,7 +516,7 @@ div#about-us:before {
   margin: 0px 4px;
 }
 .twoh-div {
-  padding: 3px 15px 10px;
+  padding: 3px 13px 10px;
 }
 
 .spi {
@@ -652,6 +652,8 @@ button.accordion-button.collapsed {
 .accordion h6 {
   margin-bottom: 0px;
   padding: 4px 0;
+  letter-spacing: 2px;
+  font-size: 1rem;
 }
 .accordion-button:focus {
   border: none !important;
@@ -780,12 +782,14 @@ button.accordion-button.collapsed {
   letter-spacing: 15px;
 }
 .road-heads h1 {
-  font-size: 4rem;
+  font-size: 4.7rem;
 }
 .head-one h2 {
-  font-size: 24px;
+  font-size: 30px;
 }
-
+/* .head-one{
+  display: flex;
+} */
 .triggers {
   padding: 2px;
   max-width: 20px;
@@ -820,22 +824,26 @@ button.accordion-button.collapsed {
   height: 800px;
   overflow: auto;
 }
-.section-bg .row {
+.in-in-middle .row {
   align-items: start;
   position: relative;
 }
 
-.sections section {
+/* .sections .in-middle  {
   padding: 1rem;
-}
-section.section-bg {
+} */
+.in-middle .in-in-middle {
   opacity: 0;
   transition: all 1s ease;
   height: 800px;
+  visibility: hidden;
+  transform: translate(0px, 75px);
 }
 
-section.active.section-bg {
+.in-middle .active.in-in-middle {
   opacity: 1;
+  visibility: inherit;
+  transform: translate(0px, 0px);
 }
 
 /* Media Query */
@@ -1041,9 +1049,9 @@ section.active.section-bg {
   .accordion-button::after {
     font-size: 20px;
   }
-  .road-heads {
+  /* .road-heads {
     display: block;
-  }
+  } */
   .rightsec-road,
   /* .road-heads {
     padding-left: 20px;

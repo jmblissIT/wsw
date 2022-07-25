@@ -57,20 +57,20 @@ const Header = () => {
                     </li>
 
                     <li id="head-nav">
-                    <span className="red-span">soon!</span>
+                    <span className="red-span mx-2">soon!</span>
                       <NavLink className="nav-link" to="#">
                         STAKING
                       </NavLink>
                     </li>
 
                     <li id="head-nav">
-                    <span className="red-span">soon!</span>
+                    <span className="red-span mx-2">soon!</span>
                       <NavLink className="nav-link" to="#">
                         GALLERY
                       </NavLink>
                     </li>
                     <li id="head-nav">
-                    <span className="red-span">soon!</span>
+                    <span className="red-span mx-2">soon!</span>
                     <NavDropdown title="MORE" id="basic-nav-dropdown">
                       <NavLink className="nav-link" to="#">
                         News

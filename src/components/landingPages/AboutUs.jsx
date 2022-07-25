@@ -33,7 +33,7 @@ const AboutUs = () => {
                     }}
                     startDelay={100}
                     cursorColor="black"
-                    text="Wall Street Wolves is a project that hunts sand invests into
+                    text="Wall Street Wolves is a project that hunts and invests into
             opportunities and projects for a community vault that you
             can earn shares in!"
                     typeSpeed={120}
@@ -50,14 +50,16 @@ const AboutUs = () => {
                         fontSize: "18px",
                         letterSpacing: "2px",
                         color: "#000",
-                        //textAlign:"right"
+                        textAlign:"justify"
                       }}
                       startDelay={100}
                       cursorColor="black"
-                      text="Well versed in all markets,our pack dedicates their time to not only finding the right prey,but teaching you to hunt along the way."
+                      text="Well versed in all markets,our pack dedicates their time to not only finding the right prey,but teaching you to hunt along the way"       
+              
                       typeSpeed={120}
                       scrollArea={myRef}
                       hideCursorAfterText={true}
+                      
                     />
                   </p>
                   <p>

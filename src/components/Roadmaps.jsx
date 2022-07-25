@@ -19,7 +19,7 @@ const Roadmaps = () => {
     };
 
     scrollingDiv.onscroll = function () {
-      if (scrollingDiv.scrollTop < 0) {
+      if (scrollingDiv.scrollTop < 250) {
         img1.src = imag1;
       }
 
@@ -40,7 +40,7 @@ const Roadmaps = () => {
 
   return (
     <>
-      <div className="roadmap-sections">
+      <div className="roadmap-sections pt-md-5">
         <div className=" roadmap-trigger">
           <div className="row">
             <div className="col-md-1 rgt-sec">
@@ -82,24 +82,25 @@ const Roadmaps = () => {
               </nav>
             </div>
             <div className="col-md-11">
-
-                
               <div className="sections">
                 <div
-                  className="middle"
+                  className="middle py-5"
                   id="scrollContainer"
                   ref={scrollableRef}
                 >
                   <div className="in-middle">
                     <div
-                      className="in-in-middle one py-5 mx-3"
-                      id="1"
-                      ref={registerSectionRef("section-1")}
+                     className={
+                      active === "section-1"
+                        ? "active in-in-middle white-txt pt-md-3"
+                        : "in-in-middle white-txt pt-md-3"
+                    }
+                    ref={registerSectionRef("section-1")}
                     >
-                        <div className="rightsec-road mx-md-4">
+                        <div className="rightsec-road ">
                           <h3>ROADMAP</h3>
                         </div>
-                        <div className="road-heads mx-md-3">
+                        <div className="road-heads">
                           <h1 className="outline-txt ">LAUNCH</h1>
                         </div>
                         <div className=" anim-list">
@@ -128,7 +129,7 @@ const Roadmaps = () => {
                               beginning with cryptocurrencies and NFTs.
                             </li>
                             <li>
-                              <span className="span-road">
+                              <span className="white-span black-txt ">
                                 Alpha Wolf Sessions
                               </span>{" "}
                               begin with a special guest kickoff session!
@@ -142,7 +143,7 @@ const Roadmaps = () => {
                               at the end of year or into early 2023 to add more
                               funds to the vault and expand our reach. Our
                               initial WSW holders will{" "}
-                              <span className="spanone">ALWAYS</span>
+                              <span className="spanone">ALWAYS </span> 
                               receive higher benefits than future drops.
                             </li>
                           </ul>
@@ -150,15 +151,18 @@ const Roadmaps = () => {
                       
                     </div>
                     <div
-                      className="in-in-middle two py-5"
-                      id="2"
+                      className={
+                        active === "section-2"
+                          ? "active in-in-middle white-txt pt-md-5"
+                          : "in-in-middle white-txt pt-md-3"
+                      }
                       ref={registerSectionRef("section-2")}
                     >
-                      <div className="row">
-                        <div className="rightsec-road mx-md-4">
+                      <div className="row py-5">
+                        <div className="rightsec-road">
                           <h3 className="white-txt">ROADMAP</h3>
                         </div>
-                        <div className="road-heads mx-md-4">
+                        <div className="road-heads">
                           <div className="head-one">
                             <h2 className="white-txt">SHORTLY </h2>
                             <h2 className="white-txt aft-head">AFTER</h2>
@@ -227,15 +231,18 @@ const Roadmaps = () => {
                       </div>
                     </div>
                     <div
-                      className="in-in-middle three py-5"
-                      id="3"
+                      className={
+                        active === "section-3"
+                          ? "active in-in-middle white-txt pt-md-5"
+                          : "in-in-middle white-txt pt-md-3"
+                      }
                       ref={registerSectionRef("section-3")}
                     >
-                      <div className="row">
-                        <div className="rightsec-road mx-md-4">
+                      <div className="row py-5">
+                        <div className="rightsec-road">
                           <h3 className="white-txt">ROADMAP</h3>
                         </div>
-                        <div className="road-heads mx-md-4">
+                        <div className="road-heads">
                           <div className="head-one">
                             <h2 className="white-txt">A BIT </h2>
                             <h2 className="white-txt"> DOWN</h2>
