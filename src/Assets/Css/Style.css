@@ -1121,8 +1121,8 @@ button.accordion-button.collapsed {
     right: 0;
   }
   .dot-btn {
-    width: 330px;
-    padding: 0px 0px 30px 40px;
+    padding-bottom: 40px;
+    width: 300px;
   }
   .home-para {
     padding: 26px 20px;
