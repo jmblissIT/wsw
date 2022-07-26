@@ -1118,7 +1118,7 @@ button.accordion-button.collapsed {
     display: block;
   }
   .btn-home-checked {
-    right: 0;
+    right: 11px;
   }
   .dot-btn {
     padding-bottom: 40px;
