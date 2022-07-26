@@ -50,7 +50,7 @@ const AboutUs = () => {
                         fontSize: "18px",
                         letterSpacing: "2px",
                         color: "#000",
-                        textAlign:"justify"
+                        textAlign:"right"
                       }}
                       startDelay={100}
                       cursorColor="black"
