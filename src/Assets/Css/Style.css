@@ -645,6 +645,23 @@ img.img-fluid.fire {
   background-color: #0031ff !important;
   border-radius: 8px;
 }
+.accordion  .accordion-item:nth-child(even) button::after{
+  background-image: url('../image/bluecross.png') !important;
+  width: 20px ;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.accordion  .accordion-item:nth-child(even) button.collapsed::after{
+  background-image: url('../image/blueadd.png') !important;
+  width: 20px ;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+
+}
 
 button.accordion-button.collapsed {
   border-radius: 8px;
@@ -661,6 +678,7 @@ button.accordion-button.collapsed {
 }
 .accordion .accordion-item:nth-child(even) button::after {
   color: #fff;
+  
 }
 .accordion-button.collapsed::after {
   background-image: url("../image/show.png") !important;
@@ -1088,6 +1106,12 @@ button.accordion-button.collapsed {
   .accordion-item{
     margin: 1em 1em;
   }
+  .accordion h6{
+    font-size: 12px;
+  }
+  .accordion-button.collapsed:after, .accordion-button:after{
+    top: 18;
+  }
 }
 @media screen and (max-width: 650px) {
   .left-img {
@@ -1097,8 +1121,8 @@ button.accordion-button.collapsed {
     right: 0;
   }
   .dot-btn {
-    padding-bottom: 40px;
-    width: 290px;
+    width: 330px;
+    padding: 0px 0px 30px 40px;
   }
   .home-para {
     padding: 26px 20px;
@@ -1120,6 +1144,10 @@ button.accordion-button.collapsed {
   }
   .home-para h6 {
     font-size: 12px;
+    line-height: 1.4;
+  }
+  .home-para p{
+    margin-bottom: 0px !important;
   }
 }
 @media screen and (max-width: 900px) and (min-width: 767px){
