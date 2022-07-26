@@ -1,8 +1,10 @@
 import React from "react";
-import Abtimg from "../../Assets/image/abtimg.png";
+import Abtimg from "../../Assets/image/abtimag.png";
+import blue from "../../Assets/image/bcricle.png";
 import Bar from "../../Assets/image/bar.png";
 import Bar3 from "../../Assets/image/bar3.png";
 import TypeWriterEffect from "react-typewriter-effect";
+import { Parallax, Background } from "react-parallax";
 
 const AboutUs = () => {
   const myRef = document.querySelector(".about");
@@ -81,8 +83,29 @@ const AboutUs = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-6 col-12 abt-left text-end p-md-0">
+              <div className="col-lg-6 col-12 abt-left  p-md-0">
+              <Parallax
+  bgImage={blue}
+  strength={400}
+  renderLayer={percentage => (
+      <div
+          style={{
+              position: 'absolute',
+              backgroundImage: "url('../../Assets/image/bcricle.png')",
+              height: percentage * 1000,
+              width: percentage * 1000,
+              left:"52%"
+
+          }}
+      />
+  )}
+  >
+              
+                <div className="abt-animg">
                 <img src={Abtimg} alt="aboutleftimage" className="img-fluid" />
+                </div>
+               
+                </Parallax>
               </div>
             </div>
           </div>

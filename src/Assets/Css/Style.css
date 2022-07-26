@@ -412,9 +412,33 @@ div#about-us:before {
 }
 
 .abt-left img {
-  max-width: 480px;
-  margin-top: -28px;
+  max-width: 350px;
+  margin-top: -48px;
 }
+
+.react-parallax{
+  margin-top: -22px;
+} 
+.react-parallax-bgimage{
+  height: auto !important;
+}
+.abt-animg{
+  text-align: center;
+}
+
+
+
+
+
+/* .abt-animg{
+  background-image: url('../image/bcricle.png');
+  background-repeat: no-repeat;
+  background-size: 535px 500px;
+  background-position: center;
+  margin-left: 66px;
+  margin-top: -16px;
+  padding: 43px;
+} */
 
 /* RoadMap Section */
 
