@@ -85,17 +85,17 @@ const AboutUs = () => {
               </div>
               <div className="col-lg-6 col-12 abt-left  p-md-0">
               <Parallax
-  bgImage={blue}
-  strength={400}
-  renderLayer={percentage => (
+                bgImage={blue}
+                strength={400}  
+            renderLayer={percentage => (
       <div
           style={{
-              position: 'absolute',
-              backgroundImage: "url('../../Assets/image/bcricle.png')",
-              height: percentage * 1000,
-              width: percentage * 1000,
-              left:"52%"
-
+              // position: 'absolute',
+              // height:'600px',
+              // width:'600px',
+              // left:"52%",
+              // top: "50%",
+              // transform: `translateX(-50%, -50%) scale(${percentage})`,
           }}
       />
   )}

@@ -411,21 +411,34 @@ div#about-us:before {
   text-align: end;
 }
 
-.abt-left img {
+/* .abt-left img {
   max-width: 350px;
   margin-top: -48px;
-}
+} */
 
 .react-parallax{
   margin-top: -22px;
 } 
-.react-parallax-bgimage{
+/* .react-parallax-bgimage{
   height: auto !important;
-}
+} */
 .abt-animg{
   text-align: center;
 }
-
+.react-parallax-bgimage{
+  max-width:528px !important;
+  max-height: 500px !important;
+  top: 10% !important;
+}
+.react-parallax-content{
+  max-width: 400px;
+  /* max-height: 513px; */
+  margin-left:90px;
+}
+.react-parallax {
+  max-height: 515px;
+  height: 503px;
+}
 
 
 
@@ -1194,6 +1207,41 @@ button.accordion-button.collapsed {
     padding-top: 80px;
   }
   
+}
+ 
+/* about anim mq */
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+  .react-parallax-bgimage{
+    max-width: 440px !important;
+    max-height: 440px !important;
+    top: 38% !important;
+  }
+  .react-parallax-content{
+    left: 80px;
+    max-width: 370px;
+  }
+  .react-parallax{
+    height: 444px;
+  }
+  .react-parallax{
+    margin-top: -12px;
+  } 
+}
+@media screen and (max-width: 767px){
+  .react-parallax-bgimage{
+    max-width: 300px !important;
+    max-height: 400px !important;
+    margin-left: 30px;
+  }
+  .react-parallax {
+    height: 407px;
+    margin-top: -12px;
+  }
+  .react-parallax-content{
+    max-width: 350px !important;
+  }
+
 }
 
 
